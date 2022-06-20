@@ -1,0 +1,18 @@
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot spi_drv_TB_behav xil_defaultlib.spi_drv_TB xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 12 differs from formal bit length 18 for port 'tx_data' [C:/Users/panch/Documents/Kepler/question_3/question_3.srcs/sim_1/new/spi_drv_TB.sv:53]
+WARNING: [VRFC 10-3091] actual bit length 12 differs from formal bit length 18 for port 'rx_miso' [C:/Users/panch/Documents/Kepler/question_3/question_3.srcs/sim_1/new/spi_drv_TB.sv:54]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/panch/Documents/Kepler/spi_drv.sv" Line 36. Module spi_drv(CLK_DIVIDE=4,SPI_MAXLEN=18,n_clks=12) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/panch/Documents/Kepler/spi_drv.sv" Line 36. Module spi_drv(CLK_DIVIDE=4,SPI_MAXLEN=18,n_clks=12) doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.spi_drv(CLK_DIVIDE=4,SPI_MAXLEN=...
+Compiling module xil_defaultlib.spi_drv_TB
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot spi_drv_TB_behav
